@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Trabalho de casa para Domingo 26 de Março de 2023 ">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Pedro Pires">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPC 1</title>
+    <link type="image/png" sizes="48x48" rel="icon" href="sb2.png">
+    <style>
+        header{
+            text-align: center;
+            font-family: Arial;
+        }
+        nav{
+            font-family: Arial; 
+            text-align: center;
+        }
+        body{
+            background-color: #121212; 
+            color: #ffffffd5;
+            font-family: Arial;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Perguntas sobre HTML</h1>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#pergunta1" title="O que é HTML?"> Pergunta 1</a>
+        |
+        <a href="#pergunta2" title="O que é um elemento HTML? Dê exemplos."> Pergunta 2</a>
+        |
+        <a href="#pergunta3" title="Que ferramentas são necessárias para contruir um site HTML?"> Pergunta 3</a>
+        |
+        <a href="#pergunta4" title="Quais os elementos base necessários para a criação de uma página HTML?"> Pergunta 4</a>
+        |
+        <a href="#pergunta5" title="O elemento &lt;br&gt; necessita de ser fechado?"> Pergunta 5</a>
+        |
+        <a href="#pergunta6" title="Para que servem os atributos? Dê um exemplo."> Pergunta 6</a>
+        |
+    </nav>
+
+    <hr>
+
+    <section id="pergunta1">
+    <!--PERGUNTA 1-->
+        <h3>1 - O que é <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" title="Hyper Text Markup Language">HTML?</a></h3>
+        <p style="text-align: justify;">
+            HTML é a componente base para a web permitindo a construção de websites e a inserção de novos conteúdos, como imagens e vídeos através de hipertexto.
+            <br><br>
+            Para escrever documentos HTML é apenas necessário, um editor de texto simples e conhecimento dos códigos que compõem a linguagem. Os códigos (tags) servem para indicar a função de cada elemento da página Web. Os tags funcionam como comandos de formatação de textos, formulários, links (ligações), imagens, tabelas, entre outros.
+            <br><br>
+            Os browsers (navegadores) identificam as tags e apresentam a página conforme está especificada. Um documento em HTML é um texto simples, que pode ser editado num vulgar editor de texto como por exemplo o notepad e transformado em hipertexto.
+            <br><br>
+            A linguagem HTML foi criada por <b>Tim Berners Lee</b> na década de <b>1990</b>. As especificações da linguagem são controladas pela W3C (World Wide Web Consortium).
+            <br><br>
+            O HTML está na quinta versão HTML5.
+            <br><br>
+            Por curiosidade o site original da World Wide Web criado por Tim Berners Lee, ainda pode ser visitado <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank"> aqui!</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="pergunta2">
+    <!-- PERGUNTA 2 -->
+        <h3>2 - O que é um <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">elemento</a> HTML? Dê exemplos.</h3>
+        <p style="text-align: justify;">
+            Um elemento em HTML é definido pela tag de abertura e pela tag de fecho, ficando entre as tags de abertura e fecho o conteúdo. Os elementos dizem ao browser como interpretar e estruturar o documento HTML.
+            <br><br><br>
+            Alguns exemplos de elementos com tag de abertura e tag de fecho:
+            <br><br>
+            -&gt; A tag &lt;<b>html</b>&gt;, define a raíz de um documento HTML.
+            <br><br>
+            -&gt; A tag &lt;<b>body</b>&gt;, define o corpo de um documento.
+            <br><br>
+            -&gt; A tag &lt;<b>head</b>&gt;, define o título do documento, tipo de caracteres utilizados, estilos, acessibilidade e os mais variados metadados.
+            <br><br><br>
+            Alguns exemplos de elementos <u>apenas</u> com tag de abertura:
+            <br><br>
+            -&gt; A tag &lt;<b>br</b>&gt;, executa uma quebra de linha.
+            <br><br>
+            -&gt; A tag &lt;<b>hr</b>&gt;, traça uma linha horizontal.
+            <br><br>
+            -&gt; A tag &lt;<b>img</b>&gt;, define o caminho para imbutir uma imagem na página html. O caminho pode ser para uma imagem local ou uma imagem alojada num website. Também se pode adicionar um texto alternativo caso a imagem não esteja disponível para ser visualizada.
+            <br><br>
+            A linha de código: 
+            <br><br>
+            <strong>&lt;img src="https://web.archive.org/web/20091027094032im_/http://geocities.com/finalfantasy7page/CLOUD.gif" alt="Final Fantasy VII Cloud Strife" width="50" height="60"&gt;</strong> 
+            <br><br>
+            A tag &lt;<b>img</b>&gt; em acção representando o código acima:
+            <br><br>
+            <img src="https://web.archive.org/web/20091027094032im_/http://geocities.com/finalfantasy7page/CLOUD.gif" alt="Final Fantasy VII Cloud Strife" width="50" height="60" title="Final Fantasy VII Cloud Strife">
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="pergunta3">
+    <!-- PERGUNTA 3 -->
+        <h3>3 - Que ferramentas são necessárias para contruir um site HTML?</h3>
+        <p style="text-align: justify;">Linguagens de programação: 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML
+            </a> | 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"  target="_blank">CSS
+            </a> | 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview" target="_blank">Javascript
+            </a>
+           <br><br>
+            Editores HTML: 
+            <a href="https://code.visualstudio.com/" target="_blank">Vscode
+            </a> | 
+             Notepad++ | Sublime Text | Dreamweaver | CoffeCup
+            <br><br>
+            PC com sistema operativo: Windows | Linux | macOS
+        </p>
+    </section>
+
+    <hr>
+    <section id="pergunta4">
+    <!-- PERGUNTA 4 -->
+        <h3> 4 - Quais os elementos base necessários para a criação de uma página HTML?</h3>
+        <p style="text-align: justify;">Os elementos base para a criação de uma página HTML são:
+            <br><br>
+            -&gt; &lt;<b>!DOCTYPE html</b>&gt; esta tag não necessita de ser fechada e informa o browser de que este é uma página em HTML5.
+            <br><br>
+            -&gt; &lt;<b>html</b>&gt; &lt;<b>/html</b>&gt; todos os outros elementos estão contidos entre estas duas tags à excepção do elemento &lt;!DOCTYPE html&gt;
+            <br><br>
+            -&gt; &lt;<b>body</b>&gt; &lt;<b>/body</b>&gt; todo o conteúdo de um documento html está entre estas duas tags.
+            <br><br>
+            Aqui fica um pequeno exemplo de uma página simples em html com todos os elementos acima referidos.
+            <br>
+        </p>
+            <pre style="border: 2px dashed white; width: 340px;" >
+&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Hello World Tab&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Hello World!&lt;/h1&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+            </pre>
+    </section>
+
+    <hr>
+
+    <section id="pergunta5">
+    <!-- PERGUNTA 5 -->
+        <h3>5 - O elemento &lt;br&gt; necessita de ser fechado?</h3>
+        <p style="text-align: justify;">
+            O elemento &lt;br&gt; não necessita de ser fechado pois a sua função é executar uma quebra de linha. 
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="pergunta6">
+    <!-- PERGUNTA 6 -->
+        <h3>6 - Para que servem os atributos? Dê um exemplo.</h3>
+        <p style="text-align: justify;">Os atributos fornecem       informação adicional sobre os elementos.
+            <br><br>
+            Exemplificando a tag &lt;a&gt; que define um hyperlink, tem um atributo específico chamado <b>href</b> que define qual o URL da página para onde o link o direcciona.
+            <br><br>
+            Na seguinte linha de código podemos ver que o hiperlink está direccionado para o motor de busca do Google através do atributo <b>href</b>.
+            <br><br>
+            <strong>
+                &lt;a href="https://www.google.com/">Google Search Engine&lt;/a&gt;
+            </strong>
+            <br><br>
+             <a style="text-align: justify;" href="https://www.google.com/" target="_blank">Google Search Engine</a>
+            <br><br>
+            É de salientar que o atributo está incorporado na tag de entrada.
+            <br>
+        </p>
+    </section>
+
+    <hr><br>
+
+    <footer>
+        &#169; Copyright, 2023 Pedro Pires
+    </footer>
+
+    <br>
+
+    <a style="text-align: justify;" title="Voltar ao topo da página" href="#top">Back to Top</a>
+
+</body>
+
+</html>
