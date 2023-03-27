@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 9.2</title>
+
+        <style>
+
+            table{
+                width: 550px;
+                border-collapse: collapse;
+            }
+
+            caption{
+                caption-side:top;
+                background-color:rgba(218, 165, 32, 0.500);
+                font-size: smaller;
+            }
+
+            table,th,td{
+                border: 1px solid black;
+            }
+
+            th{
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>Exemplo de Tabela em HTML</h1>
+
+        <table>
+
+            <caption>Tabela 1</caption>
+            
+            <colgroup>
+                <!-- span espalha o style para as colunas seguintes o numero do span corresponde ao numero de colunas -->
+                <col>
+                <col span ="2" style="background-color: rgba(255, 0, 0, 0.500)">
+                <col style="background-color: rgba(0, 128, 0, 0.500);">
+            </colgroup>
+            
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Morada</th>
+                <th>NIF</th>
+            </tr>
+
+            <tr>
+                <td>Fabrício</td>
+                <td>27</td>
+                <td>Covilhã</td>
+                <td>356987523</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>45</td>
+                <td>Lisboa</td>
+                <td>587985632</td>
+            </tr>
+
+            <tr>
+                <td>Rui</td>
+                <td>12</td>
+                <td>Porto</td>
+                <td>256369851</td>
+            </tr>
+
+        </table>
+
+        <br><br>
+        <hr>
+        <br><br>
+        <a href="../../index.html" title="Back to main Menu">Main</a>
+
+    </body>
+
+</html>
