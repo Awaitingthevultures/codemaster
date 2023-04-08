@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta name="Autor" content="Pedro Pires">
+        <meta name="Descrição" content="Exercício 17.1 ID's + Classes">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 17.1</title>
+
+        <style>
+            body{
+                font-family: monospace;
+                font-size: 18px;
+            }
+            .corpo{
+                border: 2px solid black;
+                border-radius: 25px;
+                width: 315px;
+            }
+            .mamal{
+                background-color: greenyellow;
+            }
+            .notmamal{
+                background-color: yellow;
+                text-align: right;
+            }
+            .mamal, .notmamal{
+                margin-top: 15px;
+                margin-right: 20px;
+            }
+            #zeca{
+                border: 5px solid red;
+                font-size: 22px;
+                text-align: center;
+                font-family:'Courier New';
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div>
+            <h1>Lista de Animais</h1>
+        </div>
+
+        <div class="corpo">
+            <ol>
+                <li class="mamal">Cachorro</li>
+                <li class="mamal">Gato</li>
+                <li class="notmamal">Jacaré</li>
+                <li class="notmamal">Pombo</li>
+                <li id="zeca" class="mamal">Pedro</li>
+                <li class="notmamal">Papagaio</li>
+                <li class="mamal">Humano</li>
+                <li class="notmamal">Tubarão</li>
+                <li class="mamal">Macaco</li>
+                <li class="notmamal">Cobra</li>
+            </ol>
+        </div>
+
+    </body>
+
+</html>

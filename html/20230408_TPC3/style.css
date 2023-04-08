@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cloud{
+    width: 125px;
+    margin-top:5px;
+    margin-right: 250px;
+    margin-bottom: 1px;
+}
+.cloud2{
+    width: 120px;
+    margin-top:1px;
+    margin-right: 170px;
+}
+.cloud3{
+    width: 100px;
+    margin-top:11px;
+    margin-right: 175px;
+    margin-bottom: 20px;
+}
+.kitten{
+    width: 80px;
+    margin-top:-26px;
+    margin-bottom: -26px;
+}
+.birds{
+    width: 100px;
+    margin-top:-20px;
+    margin-bottom: -34px;
+}
+.arvores{
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.arvorem{
+    width: 150px;
+    margin-left: 45px;
+}
+.arvorel{
+    width:190px;
+    margin-left: 45px;
+}
+.dog{
+    width: 75px;
+    margin-right: -120px;
+}
+#sky{
+    background-color: aqua;
+    height: 850px;
+}
+#earth{
+    background-color: brown;
+    height: 87px;
+}
+#sun{
+    width: 175px;
+    margin: 10px;
+}
+#pedro{
+    padding-top: 30px;
+    padding-left:15px;
+    color: antiquewhite; 
+    font-family: 'Courier New';
+}
